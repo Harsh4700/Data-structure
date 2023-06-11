@@ -1,0 +1,2 @@
+tuple1=('hey',1,2.44,'abze')
+type(tuple1)
