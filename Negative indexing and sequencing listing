@@ -1,0 +1,12 @@
+li=[1,6,4,7,'harsh',2,'ayush']
+li[-2]
+
+li[-4]
+#sequencing listing
+li[1:5:1]
+
+li[0:6:1]
+
+li[1::4]
+
+li[-3:-1]
