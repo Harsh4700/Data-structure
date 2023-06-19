@@ -1,0 +1,28 @@
+n=int(input())
+#4
+li=[int(x) for x in input().split()]
+#2 4 8 9 
+li
+#[2, 4, 8, 9]
+ele=int(input())
+#4
+isFound = False
+for i in range(len(li)):
+    if li[i]==ele:
+        print(i)
+        isFound=True
+        break
+if isFound is False:
+    print('not present in list')
+ #1
+ ele=int(input())
+ #3
+ isFound = False
+for i in range(len(li)):
+    if li[i]==ele:
+        print(i)
+        isFound=True
+        break
+if isFound is False:
+    print('not present in list')
+ #not present in list
